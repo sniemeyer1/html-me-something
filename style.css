@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffcf91;
+}
+
+header {
+  font-family: 'Ranchers', cursive;
+  color: #eb7b26;
+  font-size: 36px;
+  text-align: center;
+}
+
+article {
+  margin: 10px 15%;
+}
+footer {
+  font-family: 'Ranchers';
+  text-align: center;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* @media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+} */
